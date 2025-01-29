@@ -164,3 +164,18 @@ footer input[type="email"]{
     margin-bottom: 20px;
     border: none;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .skills-container,.resume-contsimer,footer{
+      flex-direction: column;
+    }  
+    footer,.about{
+        padding: 20px;
+    }
+    .footer-column{
+        width:calc(100% - 40px);
+        }
+        
+}
